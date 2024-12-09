@@ -1,0 +1,37 @@
+.cube {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.face {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.face.F { background-color: #f00; }
+.face.B { background-color: #00f; }
+.face.U { background-color: #fff; }
+.face.D { background-color: #ff0; }
+.face.L { background-color: #f90; }
+.face.R { background-color: #0f0; }
+
+.piece {
+  width: 30%;
+  height: 30%;
+  margin: 35%;
+  background-color: inherit;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.solution {
+  margin-top: 20px;
+}
